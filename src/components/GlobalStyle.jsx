@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
   --button-color: #E44848;
   --text-grey-color: #475467;
   --raiting-yellow-color: #FFC531;
-  --inputs-white-color: #F7F7F7;
+  --input-white-color: #F7F7F7;
   --features-white-color: #F2F4F7;
   --blur-text-color: rgba(16, 24, 40, 0.6);
   --grey-border-color: rgba(16, 24, 40, 0.2);
