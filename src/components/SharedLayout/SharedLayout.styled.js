@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Header = styled.header`
   width: 100%;
@@ -9,11 +9,4 @@ const Header = styled.header`
   border-bottom: 2px solid var(--button-color);
 `;
 
-const Logo = styled.button`
-background-color: inherit;
-border: none;
-`;
-
-
-
-export {Header, Logo}
+export { Header };

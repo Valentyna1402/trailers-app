@@ -2,21 +2,21 @@ import { Suspense } from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import { Loader } from '../Loader';
 import {Icon} from '../Icon/Icon'
-import { Header, Logo } from './SharedLayout.styled';
+import { Header } from './SharedLayout.styled';
 
 export default function SharedLayout() {
   return (
     <>
     <Header>
-      <Logo type='button'> 
+    <Link to="/">
       <Icon iconid={"icon-alcove"} width={36} height={36} fill={'var(--button-color)'} />
-      </Logo>
+      </Link>
       <nav>
         <Link to="/" className="nav-link">
           Home
         </Link>
         <Link to="/catalog" className="nav-link">
-          Trailers
+          Catalog
         </Link>
         <Link to="/favorites" className="nav-link">
         Favorites
