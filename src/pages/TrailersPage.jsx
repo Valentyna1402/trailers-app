@@ -4,7 +4,7 @@ import { SearchForm } from "../components/SearchForm/SearchForm";
 
 export default function TrailersPage () {
   return (
-    <div>
+    <div style={{display: 'flex'}}>
       <SearchForm />
       <TrailersList />
     </div>

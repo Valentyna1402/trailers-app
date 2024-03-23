@@ -15,6 +15,7 @@ export const GlobalStyle = createGlobalStyle`
   --blur-text-color: rgba(16, 24, 40, 0.6);
   --grey-border-color: rgba(16, 24, 40, 0.2);
   --load-more-border-color: rgba(71, 84, 103, 0.2);
+  --font-family: "Inter", sans-serif;
   --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -63,7 +64,6 @@ div {
 }
 
   .container {
-    margin: 0 auto;
     max-width: 1440px;
     padding: 100px 64px;
 }
