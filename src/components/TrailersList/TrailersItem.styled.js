@@ -12,6 +12,7 @@ border: 1px solid var(--grey-border-color);
 const Image = styled.img`
 width: 290px;
 height: 310px;
+object-position: 80% 0;
 `;
 
 const InfoContainer = styled.div``;

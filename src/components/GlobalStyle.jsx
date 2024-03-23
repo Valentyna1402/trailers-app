@@ -35,8 +35,13 @@ h3,
 h4,
 h5,
 h6 {
+  style: none;
   margin: 0;
   color: var(--main-black-color);
+}
+
+a {
+  text-decoration: none;
 }
 
 ul {
@@ -65,6 +70,6 @@ div {
 
   .container {
     max-width: 1440px;
-    padding: 100px 64px;
+    padding: 40px 64px;
 }
 `;
