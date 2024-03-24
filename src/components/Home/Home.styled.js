@@ -7,7 +7,7 @@ const Container = styled.div`
   background-image: url(${backgroundImage});
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: calc(100vh - 82px);
   padding: 200px 64px;
   text-align: center;
 `;
@@ -15,6 +15,7 @@ const Container = styled.div`
 const Title = styled.h1`
   font-size: 56px;
   margin-bottom: 50px;
+  text-shadow: var(--main-white-color) 1px 1px 0;
 `;
 
 const Text = styled.p`
@@ -25,10 +26,11 @@ const Text = styled.p`
 
 const StyledLink = styled(Link)`
   border-radius: 200px;
-  background-color: var(--main-white-color);
+  background-color: var(--blur-text-color);
   padding: 32px 64px;
   font-size: 24px;
   font-weight: 500;
+  color: var(--main-white-color);
 `;
 
 export { Container, Title, Text, StyledLink };

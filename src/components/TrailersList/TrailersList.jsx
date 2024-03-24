@@ -113,7 +113,7 @@ export const TrailersList = () => {
       <Wrapper>
       <List>
         {trailers.map(trailer => {
-          return <TrailersItem trailer={trailer} />
+          return <TrailersItem trailer={trailer} key={trailer._id} />
         })}
       </List>
       <Button>Load more</Button>

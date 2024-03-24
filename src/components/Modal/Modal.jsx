@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
+import { TrailerDetails } from "../TrailerDetails/TrailerDetails";
+import { Overlay } from "./Modal.styled";
 
-export const Modal = () => {
+export const Modal = ({ show, close, trailer }) => {
+  if (!show) {
+    return null;
+  }
+
   return (
-    <div>
-     Modal
-    </div>
+    <Overlay onClick={close}>
+      <TrailerDetails trailer={trailer} close={close} />
+    </Overlay>
   );
 };

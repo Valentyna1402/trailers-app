@@ -1,9 +1,9 @@
 import React from 'react';
 
-export const Features = () => {
+export const Features = (trailer) => {
     return (
       <div>
-Features
+
       </div>
     );
   };
