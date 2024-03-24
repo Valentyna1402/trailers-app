@@ -1,6 +1,13 @@
 import React from "react";
 import { DetailItem } from "../DetailItem/DetailItem";
-import { Container, DetailsList, Text, Title, VehicleDetItem, VehicleDetList } from "./Features.styled";
+import {
+  Container,
+  DetailsList,
+  Text,
+  Title,
+  VehicleDetItem,
+  VehicleDetList,
+} from "./Features.styled";
 
 export const Features = ({ trailer }) => {
   //console.log(trailer)
