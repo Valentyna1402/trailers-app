@@ -19,6 +19,7 @@ import {
 } from "./TrailerDetails.styled";
 import { Features } from "../Features/Features";
 import { BookForm } from "../BookForm/BookForm";
+import { Reviews } from "../Reviews/Reviews";
 
 export const TrailerDetails = ({ trailer, close }) => {
   return (
@@ -54,8 +55,9 @@ export const TrailerDetails = ({ trailer, close }) => {
           <Subtitle>Reviews</Subtitle>
         </SubtitleWrapper>
         <BottomContainer>
-          <Features trailer={trailer} />
-          <BookForm />
+        <Reviews reviews={trailer.reviews} />
+          {/* <Features trailer={trailer} /> */}
+          <BookForm reviews={trailer} />
         </BottomContainer>
       </ScrollContainer>
     </Container>
