@@ -12,7 +12,7 @@ import {
 import storage from 'redux-persist/lib/storage';
 
 import { trailersSlice } from './trailersSlice';
-import { filterSlice } from './filterSlice';
+import { filterReducer } from './filterSlice';
 
 const trailersPersistConfig = {
   key: 'trailers',
@@ -22,7 +22,7 @@ const trailersPersistConfig = {
 
 export const rootReducer = combineReducers({
   trailers: persistReducer(trailersPersistConfig, trailersSlice.reducer),
-  filter: filterSlice.reducer,
+  filter: filterReducer,
 });
 
 export const store = configureStore({

@@ -9,7 +9,7 @@ import {
   Avatar,
   Name,
   Text,
-} from './Reviews.styled'
+} from "./Reviews.styled";
 
 export const Reviews = ({ reviews }) => {
   return (
@@ -20,12 +20,17 @@ export const Reviews = ({ reviews }) => {
           <Item>
             <TopWrapper>
               <Avatar>
-                <Icon iconid={"icon-user"} width={30} height={30} fill={'#E44848'} />
+                <Icon
+                  iconid={"icon-user"}
+                  width={30}
+                  height={30}
+                  fill={"#E44848"}
+                />
               </Avatar>
               <NameWrapper>
                 <Name>{review.reviewer_name}</Name>
                 <RatingWrapper>
-                <p>{review.reviewer_rating}</p>
+                  <p>{review.reviewer_rating}</p>
                   <Icon iconid={"icon-star-yellow"} width={16} height={16} />
                 </RatingWrapper>
               </NameWrapper>

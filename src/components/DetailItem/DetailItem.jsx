@@ -5,8 +5,6 @@ import { Item } from "./DetailItem.styled";
 export const DetailItem = ({ value, name }) => {
   let content;
 
-  //console.log()
-
   switch (name) {
     case "CD":
       content = (
