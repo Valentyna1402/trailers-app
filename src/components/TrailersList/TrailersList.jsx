@@ -15,8 +15,8 @@ export const TrailersList = () => {
 
   const dispatch = useDispatch();
   const trailers = useSelector(selectTrailers);
-  const isLoading = useSelector(selectIsLoading);
-  const error = useSelector(selectError);
+  // const isLoading = useSelector(selectIsLoading);
+  // const error = useSelector(selectError);
 
   useEffect(() => {
     dispatch(fetchTrailers(1));
