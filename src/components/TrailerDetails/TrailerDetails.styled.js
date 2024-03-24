@@ -107,6 +107,7 @@ display: flex;
 gap: 40px;
 padding-bottom: 24px;
 border-bottom: 1px solid var(--grey-border-color);
+margin-bottom: 44px;
 `;
 
 const SubtitleContainer = styled.div`

@@ -54,7 +54,7 @@ export const TrailerDetails = ({ trailer, close }) => {
           <Subtitle>Reviews</Subtitle>
         </SubtitleWrapper>
         <BottomContainer>
-          <Features />
+          <Features trailer={trailer} />
           <BookForm />
         </BottomContainer>
       </ScrollContainer>
